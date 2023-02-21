@@ -1,0 +1,1 @@
+const o=t=>t.product.value,a=t=>t.product.getOneProduct,e=t=>t.category.value,s=t=>t.category.categoryNotReqId,c=t=>t.user.value,r=t=>t.user.value,u=t=>t.post.value;export{o as a,s as b,e as c,r as d,a as g,u as p,c as u};
