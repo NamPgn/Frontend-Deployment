@@ -1,1 +1,0 @@
-import{C as a}from"./index.esm.a81d1a50.js";import{j as n,a as r,D as d}from"./index.d804c020.js";const u=(e,t,l,o)=>n("div",{children:[r("label",{htmlFor:e,children:t}),r(a,{name:e,control:l,rules:o,defaultValue:"",render:({field:s})=>r(d,{...s})})]});export{u as r};
