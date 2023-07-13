@@ -1,1 +1,0 @@
-import{i as o,a6 as a}from"./index.1b83b576.js";const{token:s}=o(),r=async(t,e)=>a.post(`/type/${t}/${s.user._id}`,e,{headers:{Authorization:`Bearer ${s}`}}),p=async(t,e)=>await a.post(`/push/category/type/${t}`,e);export{r as d,p};
