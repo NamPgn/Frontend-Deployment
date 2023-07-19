@@ -1,0 +1,1 @@
+import{a as o,P as s}from"./index.bf9ea328.js";const p=({totalItems:t,pageSize:r,currentPage:a,onChange:e,className:i,defaultCurrent:n})=>o(s,{simple:!0,className:i,total:t,current:a,onChange:e,pageSize:r,defaultCurrent:n});export{p as i};
