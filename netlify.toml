@@ -1,3 +1,10 @@
-Access-Control-Allow-Origin: https://tromphim.netlify.app
-Access-Control-Allow-Methods: GET, POST, PUT, DELETE
-Access-Control-Allow-Headers: Content-Type
+[[redirects]]
+  from = "/pathx"
+  to = "https://tromphim.netlify.app/"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
