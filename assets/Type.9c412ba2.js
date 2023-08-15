@@ -58,6 +58,3 @@ color:#999;
 margin:10px 0;
 font-weight:500;
 `;export{m as D,x as a,e as b,d as c,p as d,s as e,a as f,o as g};
-
-
-// ádfnkasdjf
