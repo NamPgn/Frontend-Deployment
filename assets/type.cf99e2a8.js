@@ -1,0 +1,1 @@
+import{b8 as o,b9 as a}from"./index.a3a7a6a2.js";const t=o(),n=async(e,s)=>a.post(`/type/${e}/${t.user._id}`,s,{headers:{Authorization:`Bearer ${t.token}`}}),i=async(e,s)=>await a.post(`/push/type/category/${e}/${t.user._id}`,s,{headers:{Authorization:`Bearer ${t.token}`}});export{n as d,i as p};
