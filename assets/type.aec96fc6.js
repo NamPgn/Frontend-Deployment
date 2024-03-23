@@ -1,1 +1,0 @@
-import{bk as o,bl as a}from"./index.cecef7c3.js";const t=o(),n=async(e,s)=>a.post(`/type/${e}/${t.user._id}`,s,{headers:{Authorization:`Bearer ${t.token}`}}),i=async(e,s)=>await a.post(`/push/type/category/${e}/${t.user._id}`,s,{headers:{Authorization:`Bearer ${t.token}`}});export{n as d,i as p};
