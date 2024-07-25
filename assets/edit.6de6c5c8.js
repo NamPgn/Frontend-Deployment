@@ -1,0 +1,5 @@
+import{s as d,ah as p,r as t,y as h,j as s,f as b,aY as f}from"./vendor.bb3b024f.js";import{e as g,K as x,J as n,q as y,O as S,l as E}from"./index.e3be4591.js";const v=d.img`
+  width: 200px;
+  height: 200px;
+  objectfit: cover;
+`,F=()=>{const{handleSubmit:i,reset:m,control:a}=p(),[r,c]=t.exports.useState({});t.exports.useState(0);const o=g(),{id:u}=h();return t.exports.useEffect(()=>{(async()=>{const{payload:e}=await o(x(u));c(e),m(e)})()},[]),s("div",{children:b("form",{onSubmit:i(async e=>{const l=new FormData;(await o(S(e))).payload.success?f.success(`S\u1EEDa ${l.append("username",e.username)} th\xE0nh c\xF4ng`,{progress:void 0,theme:"light"}):E("L\u1ED7i!")}),children:[s(n,{name:"username",label:"User name",control:a,rules:void 0}),s(n,{name:"role",label:"Role",control:a,rules:void 0}),s("div",{className:"w-2/12",children:s(v,{src:r?r.image:"",className:"img-radius rounded",alt:"User-Profile-Image"})}),s(y,{htmlType:"submit",className:"btn btn-primary mt-2",children:"Submit"})]})})};export{F as default};
