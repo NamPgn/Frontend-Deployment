@@ -1,1 +1,0 @@
-import{r as i,j as n,aS as m}from"./vendor.66f3a2e0.js";const x=i.exports.memo(({totalItems:r,pageSize:t,currentPage:a,onChange:e,className:o,defaultCurrent:s})=>n(m,{simple:!0,className:o,total:r,current:a,onChange:e,pageSize:t,defaultCurrent:s}));export{x as i};
