@@ -1,0 +1,5 @@
+import{s as p,af as h,r as t,w as x,j as s,aW as f}from"./vendor-5f4444f9.js";import{e as b,K as g,J as n,q as j,O as y,l as S}from"./index-2f3f1e79.js";const v=p.img`
+  width: 200px;
+  height: 200px;
+  objectfit: cover;
+`,D=()=>{const{handleSubmit:i,reset:m,control:a}=h(),[r,c]=t.useState({});t.useState(0);const o=b(),{id:l}=x();t.useEffect(()=>{(async()=>{const{payload:e}=await o(g(l));c(e),m(e)})()},[]);const u=async e=>{const d=new FormData;(await o(y(e))).payload.success?f.success(`Sửa ${d.append("username",e.username)} thành công`,{progress:void 0,theme:"light"}):S("Lỗi!")};return s.jsx("div",{children:s.jsxs("form",{onSubmit:i(u),children:[s.jsx(n,{name:"username",label:"User name",control:a,rules:void 0}),s.jsx(n,{name:"role",label:"Role",control:a,rules:void 0}),s.jsx("div",{className:"w-2/12",children:s.jsx(v,{src:r?r.image:"",className:"img-radius rounded",alt:"User-Profile-Image"})}),s.jsx(j,{htmlType:"submit",className:"btn btn-primary mt-2",children:"Submit"})]})})};export{D as default};
