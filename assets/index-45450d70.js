@@ -1,1 +1,0 @@
-import{r as i,j as n,b5 as m}from"./vendor-2321f3a2.js";const p=i.memo(({totalItems:t,pageSize:r,currentPage:s,onChange:e,className:o,defaultCurrent:a})=>n.jsx(m,{simple:!0,className:o,total:t,current:s,onChange:e,pageSize:r,defaultCurrent:a}));export{p as i};
