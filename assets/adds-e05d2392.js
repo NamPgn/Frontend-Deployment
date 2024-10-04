@@ -1,4 +1,4 @@
-import{s as e,M as c,ae as m,j as s,aW as u}from"./vendor-f2c6f22c.js";import{a as p,a3 as x}from"./index-99ca8569.js";const d=e.div`
+import{s as e,M as c,ae as m,j as s,aW as u}from"./vendor-f2c6f22c.js";import{a as p,a3 as x}from"./index-96aed50a.js";const d=e.div`
   display: flex;
   justifycontent: center;
   textalign: center;

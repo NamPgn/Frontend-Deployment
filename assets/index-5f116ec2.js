@@ -1,4 +1,4 @@
-import{s as i,j as t,G as n}from"./vendor-f2c6f22c.js";import{h as s}from"./index-99ca8569.js";const h=i.div`
+import{s as i,j as t,G as n}from"./vendor-f2c6f22c.js";import{h as s}from"./index-96aed50a.js";const h=i.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 10px;
