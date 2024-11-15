@@ -1,0 +1,1 @@
+import{j as s}from"./vendor-c6feb40d.js";const r=({title:t,subtitle:e})=>s.jsxs("div",{className:"mb-6",children:[s.jsx("h1",{className:"text-2xl font-bold text-gray-800",children:t}),e&&s.jsx("p",{className:"text-gray-600",children:e})]});export{r as P};
